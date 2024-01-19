@@ -26,16 +26,17 @@ client.on("warn", () => {})
 function printClear() {
     console.log(`
 
-
-
-
-    ██╗      ██████╗ ███████╗██╗   ██╗
-    ██║     ██╔═══██╗██╔════╝╚██╗ ██╔╝
-    ██║     ██║   ██║█████╗   ╚████╔╝ 
-    ██║     ██║   ██║██╔══╝    ╚██╔╝  
-    ███████╗╚██████╔╝██║        ██║   
-    ╚══════╝ ╚═════╝ ╚═╝        ╚═╝   
-                                      
+    
+     ██▓███   █    ██   ██████  ██░ ██ 
+    ▓██░  ██▒ ██  ▓██▒▒██    ▒ ▓██░ ██▒
+    ▓██░ ██▓▒▓██  ▒██░░ ▓██▄   ▒██▀▀██░
+    ▒██▄█▓▒ ▒▓▓█  ░██░  ▒   ██▒░▓█ ░██ 
+    ▒██▒ ░  ░▒▒█████▓ ▒██████▒▒░▓█▒░██▓
+    ▒▓▒░ ░  ░░▒▓▒ ▒ ▒ ▒ ▒▓▒ ▒ ░ ▒ ░░▒░▒
+    ░▒ ░     ░░▒░ ░ ░ ░ ░▒  ░ ░ ▒ ░▒░ ░
+    ░░        ░░░ ░ ░ ░  ░  ░   ░  ░░ ░
+                       
+                                                                         
                                  
                                                                             
     • ${client.user.tag} | Use: '${trigger}' em algum chat. •
@@ -138,7 +139,7 @@ function clear(authToken, authorId, channelId) {
 
 client.on('ready', async () => {
     console.clear()
-    process.title = `lofygang`
+    process.title = `pushclear`
     printClear()
 })
 
